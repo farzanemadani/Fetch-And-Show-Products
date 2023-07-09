@@ -1,0 +1,53 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #353535;
+  color: #E8E8E8;
+}
+
+#app {
+  margin: 50px auto;
+  padding: 0 15px;
+}
+
+.products {
+  width: 100%;
+  margin: auto;
+  padding: 50px;
+  border-radius: 2rem;
+}
+
+.products:empty {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.product {
+  border-radius: 10px;
+  background-color: #2A2A2A;
+  padding: 20px;
+}
+
+.product img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.product h3 {
+  margin-top: 30px;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/*# sourceMappingURL=style.css.map */
